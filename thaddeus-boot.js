@@ -12,5 +12,5 @@
   if(!state.supported){recovery('This browser cannot display the 3D view. Explore the ring and campaign below.');return}
   state.loading=true;state.stage='loading';
   function script(path){return new Promise((resolve,reject)=>{const el=document.createElement('script');el.src=new URL(path,document.baseURI).href;el.onload=resolve;el.onerror=()=>reject(new Error('Could not load '+path));document.head.append(el)})}
-  (async()=>{try{for(const path of ['energy-core.js?v=2026111703','assets/js/app.js?v=2026111703','immersive-native-support.js?v=2026111703'])await script(path);state.stage='starting'}catch{recovery('The 3D view could not load. You can still discover the ring and campaign.')}})();
+  (async()=>{try{for(const path of ['thaddeus-world-atmosphere.js?v=2026111704','energy-core.js?v=2026111704','assets/js/app.js?v=2026111704','immersive-native-support.js?v=2026111704'])await script(path);state.stage='starting'}catch{recovery('The 3D view could not load. You can still discover the ring and campaign.')}})();
 })();

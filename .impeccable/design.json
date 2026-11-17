@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-17T14:42:18.591Z",
+  "generatedAt": "2026-11-17T16:39:11.240Z",
   "title": "Design System: Thaddeus",
   "extensions": {
     "colorMeta": {
@@ -37,46 +37,46 @@
       "paper": {
         "role": "neutral",
         "displayName": "Paper Light",
-        "canonical": "#ecf3ec",
+        "canonical": "#f1f0e3",
         "tonalRamp": [
-          "oklch(15% 0.0119 145.48)",
-          "oklch(26% 0.0119 145.48)",
-          "oklch(38% 0.0119 145.48)",
-          "oklch(49% 0.0119 145.48)",
-          "oklch(61% 0.0119 145.48)",
-          "oklch(72% 0.0119 145.48)",
-          "oklch(84% 0.0119 145.48)",
-          "oklch(95% 0.0119 145.48)"
+          "oklch(15% 0.0172 103.15)",
+          "oklch(26% 0.0172 103.15)",
+          "oklch(38% 0.0172 103.15)",
+          "oklch(49% 0.0172 103.15)",
+          "oklch(61% 0.0172 103.15)",
+          "oklch(72% 0.0172 103.15)",
+          "oklch(84% 0.0172 103.15)",
+          "oklch(95% 0.0172 103.15)"
         ]
       },
       "muted": {
         "role": "neutral",
         "displayName": "Mist Teal",
-        "canonical": "#b2ccc8",
+        "canonical": "#bbd1cb",
         "tonalRamp": [
-          "oklch(15% 0.0285 185.42)",
-          "oklch(26% 0.0285 185.42)",
-          "oklch(38% 0.0285 185.42)",
-          "oklch(49% 0.0285 185.42)",
-          "oklch(61% 0.0285 185.42)",
-          "oklch(72% 0.0285 185.42)",
-          "oklch(84% 0.0285 185.42)",
-          "oklch(95% 0.0285 185.42)"
+          "oklch(15% 0.0251 177.51)",
+          "oklch(26% 0.0251 177.51)",
+          "oklch(38% 0.0251 177.51)",
+          "oklch(49% 0.0251 177.51)",
+          "oklch(61% 0.0251 177.51)",
+          "oklch(72% 0.0251 177.51)",
+          "oklch(84% 0.0251 177.51)",
+          "oklch(95% 0.0251 177.51)"
         ]
       },
       "line": {
         "role": "neutral",
         "displayName": "Studio Line",
-        "canonical": "#476669",
+        "canonical": "#496963",
         "tonalRamp": [
-          "oklch(15% 0.0364 203.58)",
-          "oklch(26% 0.0364 203.58)",
-          "oklch(38% 0.0364 203.58)",
-          "oklch(49% 0.0364 203.58)",
-          "oklch(61% 0.0364 203.58)",
-          "oklch(72% 0.0364 203.58)",
-          "oklch(84% 0.0364 203.58)",
-          "oklch(95% 0.0364 203.58)"
+          "oklch(15% 0.0384 181.74)",
+          "oklch(26% 0.0384 181.74)",
+          "oklch(38% 0.0384 181.74)",
+          "oklch(49% 0.0384 181.74)",
+          "oklch(61% 0.0384 181.74)",
+          "oklch(72% 0.0384 181.74)",
+          "oklch(84% 0.0384 181.74)",
+          "oklch(95% 0.0384 181.74)"
         ]
       },
       "gold": {
@@ -97,16 +97,31 @@
       "panel": {
         "role": "neutral",
         "displayName": "Teal Panel",
-        "canonical": "#05272b",
+        "canonical": "#031c20",
         "tonalRamp": [
-          "oklch(15% 0.0386 206.35)",
-          "oklch(26% 0.0386 206.35)",
-          "oklch(38% 0.0386 206.35)",
-          "oklch(49% 0.0386 206.35)",
-          "oklch(61% 0.0386 206.35)",
-          "oklch(72% 0.0386 206.35)",
-          "oklch(84% 0.0386 206.35)",
-          "oklch(95% 0.0386 206.35)"
+          "oklch(15% 0.0322 209.30)",
+          "oklch(26% 0.0322 209.30)",
+          "oklch(38% 0.0322 209.30)",
+          "oklch(49% 0.0322 209.30)",
+          "oklch(61% 0.0322 209.30)",
+          "oklch(72% 0.0322 209.30)",
+          "oklch(84% 0.0322 209.30)",
+          "oklch(95% 0.0322 209.30)"
+        ]
+      },
+      "gallery": {
+        "role": "neutral",
+        "displayName": "Gallery Night",
+        "canonical": "#010e10",
+        "tonalRamp": [
+          "oklch(15% 0.0233 205.65)",
+          "oklch(26% 0.0233 205.65)",
+          "oklch(38% 0.0233 205.65)",
+          "oklch(49% 0.0233 205.65)",
+          "oklch(61% 0.0233 205.65)",
+          "oklch(72% 0.0233 205.65)",
+          "oklch(84% 0.0233 205.65)",
+          "oklch(95% 0.0233 205.65)"
         ]
       },
       "field": {
@@ -142,27 +157,27 @@
       "secondary-stroke": {
         "role": "neutral",
         "displayName": "Secondary Stroke",
-        "canonical": "#76938d",
+        "canonical": "#66847a",
         "tonalRamp": [
-          "oklch(15% 0.0339 181.18)",
-          "oklch(26% 0.0339 181.18)",
-          "oklch(38% 0.0339 181.18)",
-          "oklch(49% 0.0339 181.18)",
-          "oklch(61% 0.0339 181.18)",
-          "oklch(72% 0.0339 181.18)",
-          "oklch(84% 0.0339 181.18)",
-          "oklch(95% 0.0339 181.18)"
+          "oklch(15% 0.0375 172.57)",
+          "oklch(26% 0.0375 172.57)",
+          "oklch(38% 0.0375 172.57)",
+          "oklch(49% 0.0375 172.57)",
+          "oklch(61% 0.0375 172.57)",
+          "oklch(72% 0.0375 172.57)",
+          "oklch(84% 0.0375 172.57)",
+          "oklch(95% 0.0375 172.57)"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Selected-perspective display",
-        "purpose": "Short serif statement beside the ring on desktop and above it on phones."
+        "displayName": "World display",
+        "purpose": "Short statement beside each physical setpiece, above the object on phones."
       },
       "opening": {
-        "displayName": "Opening statement",
-        "purpose": "Viewport-height-aware introduction above the three native objects."
+        "displayName": "Opening sentence",
+        "purpose": "One serif sentence with italic emphasis above the staged selector."
       },
       "panel-title": {
         "displayName": "Panel title",
@@ -182,7 +197,15 @@
       },
       "wordmark": {
         "displayName": "Thaddeus wordmark",
-        "purpose": "Separated serif capitals in the fixed header."
+        "purpose": "Serif capitals in the fixed header."
+      },
+      "piece-title": {
+        "displayName": "Piece title",
+        "purpose": "Full-screen product information beside the large photograph."
+      },
+      "gallery-title": {
+        "displayName": "Gallery editorial title",
+        "purpose": "Large serif title with italic emphasis beside contained campaign imagery."
       }
     },
     "shadows": [
@@ -227,6 +250,16 @@
         "name": "reduced-motion",
         "value": "0s",
         "purpose": "CSS transitions disabled and image animation removed; native material and spatial phases freeze."
+      },
+      {
+        "name": "panel-reveal",
+        "value": ".55s cubic-bezier(.16,1,.3,1) both",
+        "purpose": "Opacity and clip-path reveal for same-document overlays; removed for reduced motion."
+      },
+      {
+        "name": "navigation-rule",
+        "value": "transform .5s cubic-bezier(.16,1,.3,1),opacity .5s",
+        "purpose": "Gold line responds to opening-world hover/focus and in-scene active world."
       }
     ],
     "breakpoints": [
@@ -244,7 +277,15 @@
       },
       {
         "name": "short-desktop-height",
-        "value": "680px"
+        "value": "720px"
+      },
+      {
+        "name": "very-narrow-phone",
+        "value": "340px"
+      },
+      {
+        "name": "short-portrait-phone-height",
+        "value": "660px"
       }
     ],
     "focus": {
@@ -254,11 +295,21 @@
     "tonalRampPolicy": "Display-only OKLCH derivatives of source colours; not additional production CSS tokens.",
     "sourceFiles": [
       "thaddeus.css",
+      "thaddeus-world.css",
       "index.html",
       "thaddeus.js",
       "energy-core.js",
+      "thaddeus-world-atmosphere.js",
       "assets/js/app.js",
       "thaddeus-boot.js"
+    ],
+    "overlays": [
+      {
+        "name": "world-hud-readability",
+        "height": "190px",
+        "background": "linear-gradient(0deg,rgba(2,17,19,.98),rgba(2,17,19,.88) 32%,rgba(2,17,19,.46) 65%,rgba(2,17,19,0))",
+        "purpose": "Protect bottom world navigation and footer in selected hero/macro states."
+      }
     ]
   },
   "components": [
@@ -266,9 +317,9 @@
       "name": "Primary action",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Full-width main action in a detail or utility panel.",
-      "html": "<button class=\"ds-primary\">Enquire about this piece <svg width=\"16\" height=\"16\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"/></svg></button>",
-      "css": ".ds-primary{width:100%;min-height:50px;display:flex;align-items:center;justify-content:space-between;border:0;border-radius:0;background:var(--paper,#ecf3ec);color:var(--ink,#041b1e);padding:16px 20px;font:13px DIN,Arial,sans-serif;cursor:pointer}.ds-primary:hover{background:var(--gold,#e5cb91)}.ds-primary:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}"
+      "description": "Gold full-width main action in product or utility panels, with paper-light hover.",
+      "html": "<button class=\"ds-primary\">Enquire about this piece <svg width=\"15\" height=\"15\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"/></svg></button>",
+      "css": ".ds-primary{width:100%;min-height:54px;display:flex;align-items:center;justify-content:space-between;border:0;border-radius:0;background:var(--gold,#e5cb91);color:var(--ink,#041b1e);padding:16px 20px;font:13px DIN,Arial,sans-serif;cursor:pointer}.ds-primary:hover{background:var(--paper,#f1f0e3)}.ds-primary:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}"
     },
     {
       "name": "Secondary action",
@@ -276,14 +327,14 @@
       "refersTo": "button-secondary",
       "description": "Outlined companion action such as save or draft download.",
       "html": "<button class=\"ds-secondary\">Save this piece</button>",
-      "css": ".ds-secondary{width:100%;min-height:50px;border:1px solid #76938d;border-radius:0;background:none;color:var(--paper,#ecf3ec);padding:15px 20px;font:12px DIN,Arial,sans-serif;text-align:center;cursor:pointer}.ds-secondary:hover{border-color:var(--gold,#e5cb91);color:var(--gold,#e5cb91)}.ds-secondary:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}"
+      "css": ".ds-secondary{width:100%;min-height:50px;border:1px solid #66847a;border-radius:0;background:none;color:var(--paper,#f1f0e3);padding:15px 20px;font:12px DIN,Arial,sans-serif;text-align:center;cursor:pointer}.ds-secondary:hover{border-color:var(--gold,#e5cb91);color:var(--gold,#e5cb91)}.ds-secondary:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}"
     },
     {
       "name": "Detail action",
       "kind": "button",
       "refersTo": "text-action",
       "description": "Quiet gold utility action with an SVG direction marker.",
-      "html": "<button class=\"ds-detail\">Find your ring measurement <svg width=\"16\" height=\"16\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"/></svg></button>",
+      "html": "<button class=\"ds-detail\">Find your ring measurement <svg width=\"15\" height=\"15\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"/></svg></button>",
       "css": ".ds-detail{display:flex;align-items:center;justify-content:space-between;gap:24px;width:100%;min-height:44px;border:0;background:none;color:var(--gold,#e5cb91);padding:15px 0;font:12px DIN,Arial,sans-serif;text-align:left;cursor:pointer}.ds-detail:hover{text-decoration:underline;text-underline-offset:5px}.ds-detail:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}"
     },
     {
@@ -292,7 +343,7 @@
       "refersTo": "input",
       "description": "Labelled editable field for the explicitly local enquiry draft.",
       "html": "<label class=\"ds-field-label\">Email address<input class=\"ds-field\" type=\"email\" autocomplete=\"email\" placeholder=\"you@example.com\"></label>",
-      "css": ".ds-field-label{display:grid;gap:10px;color:var(--muted,#b2ccc8);font:12px DIN,Arial,sans-serif}.ds-field{width:100%;min-height:48px;border:1px solid #6c8a84;border-radius:0;background:#092e31;color:var(--paper,#ecf3ec);padding:13px;font:inherit}.ds-field::placeholder{color:#a5bcb9}.ds-field:invalid:not(:placeholder-shown){border-color:#e8ac80}.ds-field:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}"
+      "css": ".ds-field-label{display:grid;gap:10px;color:var(--muted,#bbd1cb);font:12px DIN,Arial,sans-serif}.ds-field{width:100%;min-height:48px;border:1px solid #6c8a84;border-radius:0;background:#092e31;color:var(--paper,#f1f0e3);padding:13px;font:inherit}.ds-field::placeholder{color:#a5bcb9}.ds-field:invalid:not(:placeholder-shown){border-color:#e8ac80}.ds-field:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}"
     },
     {
       "name": "Header navigation",
@@ -300,71 +351,85 @@
       "refersTo": "navigation",
       "description": "Quiet DIN navigation; desktop links yield to Menu at the phone breakpoint.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><button class=\"ds-nav-link ds-nav-desktop\">The ring</button><button class=\"ds-nav-link ds-nav-desktop\">The campaign</button><button class=\"ds-nav-link\">Saved <span>0</span></button><button class=\"ds-nav-link ds-nav-menu\">Menu</button></nav>",
-      "css": ".ds-nav{display:flex;align-items:center;gap:28px}.ds-nav-link{min-height:44px;padding:8px 0;background:none;border:0;color:var(--paper,#ecf3ec);font:12px DIN,Arial,sans-serif;letter-spacing:.025em;cursor:pointer}.ds-nav-link:hover{color:var(--gold,#e5cb91)}.ds-nav-link:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}.ds-nav-menu{display:none}@media(max-width:900px){.ds-nav{gap:20px}.ds-nav-desktop{display:none}.ds-nav-menu{display:block}}"
+      "css": ".ds-nav{display:flex;align-items:center;gap:32px}.ds-nav-link{min-height:44px;padding:8px 0;background:none;border:0;color:var(--paper,#f1f0e3);font:12px DIN,Arial,sans-serif;letter-spacing:.025em;cursor:pointer}.ds-nav-link:hover{color:var(--gold,#e5cb91)}.ds-nav-link:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}.ds-nav-menu{display:none}@media(max-width:900px){.ds-nav{gap:17px}.ds-nav-desktop{display:none}.ds-nav-menu{display:block}.ds-nav-link{font-size:11px}}"
     },
     {
       "name": "Perspective choices",
       "kind": "nav",
-      "description": "Three text controls name different views of the same ring. Spatial objects are rendered separately by Hydra.",
+      "description": "Opening controls name three physical worlds around aspects of one design; Hydra renders the focal objects and set separately.",
       "html": "<nav class=\"ds-choices\" aria-label=\"Choose your perspective\"><button class=\"ds-choice\"><strong>The stone</strong><span>A world within</span></button><button class=\"ds-choice\"><strong>The setting</strong><span>Every angle considered</span></button><button class=\"ds-choice\"><strong>The presence</strong><span>Made to be remembered</span></button></nav>",
-      "css": ".ds-choices{display:grid;grid-template-columns:repeat(3,1fr);text-align:center}.ds-choice{min-height:65px;justify-self:center;padding:10px 24px;border:0;background:none;color:var(--paper,#ecf3ec);cursor:pointer}.ds-choice strong{display:block;font:400 27px Thaddeus,Georgia,serif}.ds-choice span{display:block;margin-top:7px;color:var(--muted,#b2ccc8);font:11px DIN,Arial,sans-serif;letter-spacing:.035em}.ds-choice:hover strong{color:var(--gold,#e5cb91)}.ds-choice:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}.ds-choice:disabled{cursor:wait;opacity:.4}@media(max-width:900px){.ds-choice{padding:10px 7px;min-width:0}.ds-choice strong{font-size:21px}.ds-choice span{max-width:12ch;margin:7px auto 0;line-height:1.5}}"
+      "css": ".ds-choices{display:grid;grid-template-columns:repeat(3,1fr);text-align:center}.ds-choice{position:relative;min-height:65px;min-width:170px;justify-self:center;padding:14px 24px 20px;border:0;background:none;color:var(--paper,#f1f0e3);cursor:pointer}.ds-choice strong{display:block;font:400 31px Thaddeus,Georgia,serif}.ds-choice span{display:block;margin-top:7px;color:var(--muted,#bbd1cb);font:11px DIN,Arial,sans-serif;letter-spacing:.025em}.ds-choice:hover strong{color:var(--gold,#e5cb91)}.ds-choice:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}.ds-choice:disabled{cursor:wait;opacity:.4}@media(max-width:900px){.ds-choice{padding:12px 6px 17px;min-width:0}.ds-choice strong{font-size:21px;line-height:1.1}.ds-choice span{font-size:10px;max-width:11ch;margin:8px auto 0;line-height:1.45}}.ds-choice:after{content:\"\";position:absolute;bottom:3px;left:50%;width:38px;height:1px;background:var(--gold,#e5cb91);transform:translateX(-50%) scaleX(.36);opacity:.3;transition:transform .5s cubic-bezier(.16,1,.3,1),opacity .5s}.ds-choice:is(:hover,:focus-visible):after{transform:translateX(-50%) scaleX(1);opacity:1}@media(prefers-reduced-motion:reduce){.ds-choice:after{transition:none}}@media(max-width:380px){.ds-choice strong{font-size:19px}.ds-choice span{font-size:9px}}@media(max-width:340px){.ds-choice strong{font-size:17px}}"
     },
     {
-      "name": "Detail panel",
+      "name": "Utility panel",
       "kind": "card",
       "refersTo": "dialog",
-      "description": "Square teal same-document container with an independent close layer. The actual dialog supplies its modal backdrop and focus management.",
-      "html": "<section class=\"ds-dialog\"><div class=\"ds-controls\"><button class=\"ds-close\" aria-label=\"Close panel\"><svg width=\"16\" height=\"16\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z\"/></svg></button></div><div class=\"ds-panel\"><h1 class=\"ds-panel-title\">Your selection.</h1><p class=\"ds-panel-lead\">A piece that stays with you.</p></div></section>",
-      "css": ".ds-dialog{position:relative;width:min(1100px,calc(100vw - 64px));max-height:calc(100dvh - 64px);border:1px solid var(--line,#476669);border-radius:0;background:#05272b;color:var(--paper,#ecf3ec);overflow:auto;font-family:DIN,Arial,sans-serif}.ds-controls{position:sticky;top:0;height:0;width:100%;z-index:4;pointer-events:none}.ds-close{position:absolute;top:17px;right:17px;width:44px;height:44px;display:grid;place-items:center;border:1px solid #67827d;background:#05272b;color:var(--paper,#ecf3ec);pointer-events:auto;cursor:pointer}.ds-close:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}.ds-panel{padding:75px 60px 55px}.ds-panel-title{font:400 58px/1.03 Thaddeus,Georgia,serif;letter-spacing:-.025em;margin:0 0 20px}.ds-panel-lead{font-size:15px;line-height:1.75;color:var(--muted,#b2ccc8);margin:0 0 26px;max-width:52ch}@media(max-width:900px){.ds-dialog{width:calc(100vw - 24px);max-height:calc(100dvh - 24px)}.ds-close{top:14px;right:14px}.ds-panel{padding:65px 24px 35px}.ds-panel-title{font-size:44px}.ds-panel-lead{font-size:14px}}"
+      "description": "Bounded utility overlay with square content and a circular independent close control. Product and campaign variants instead fill the viewport.",
+      "html": "<section class=\"ds-dialog\"><div class=\"ds-controls\"><button class=\"ds-close\" aria-label=\"Close panel\"><svg width=\"17\" height=\"17\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z\"/></svg></button></div><div class=\"ds-panel\"><h1 class=\"ds-panel-title\">Your selection.</h1><p class=\"ds-panel-lead\">A piece that stays with you.</p></div></section>",
+      "css": ".ds-dialog{position:relative;width:min(1100px,calc(100vw - 64px));max-height:calc(100dvh - 64px);border:0;border-radius:0;background:#031c20;color:var(--paper,#f1f0e3);overflow:auto;font-family:DIN,Arial,sans-serif}.ds-controls{position:sticky;top:0;height:0;width:100%;z-index:4;pointer-events:none}.ds-close{position:absolute;top:25px;right:25px;width:46px;height:46px;display:grid;place-items:center;border:0;border-radius:50%;background:rgba(2,19,22,.88);color:var(--paper,#f1f0e3);pointer-events:auto;cursor:pointer}.ds-close:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}.ds-panel{padding:75px 60px 55px}.ds-panel-title{font:400 58px/1.03 Thaddeus,Georgia,serif;letter-spacing:-.025em;margin:0 0 20px}.ds-panel-lead{font-size:15px;line-height:1.75;color:var(--muted,#bbd1cb);margin:0 0 26px;max-width:52ch}@media(max-width:900px){.ds-dialog{width:calc(100vw - 24px);max-height:calc(100dvh - 24px)}.ds-close{top:17px;right:17px;width:44px;height:44px}.ds-panel{padding:65px 24px 35px}.ds-panel-title{font-size:44px}.ds-panel-lead{font-size:14px}}"
+    },
+    {
+      "name": "In-scene world navigation",
+      "kind": "nav",
+      "description": "Bottom navigation changes worlds without leaving the continuous scene and marks the active world.",
+      "html": "<nav class=\"ds-world-nav\" aria-label=\"Explore another perspective\"><button class=\"ds-world\" aria-current=\"true\">The stone</button><button class=\"ds-world\" aria-current=\"false\">The setting</button><button class=\"ds-world\" aria-current=\"false\">The presence</button></nav>",
+      "css": ".ds-world-nav{display:flex;gap:26px}.ds-world{position:relative;min-height:44px;padding:12px 0;border:0;background:none;font:12px DIN,Arial,sans-serif;color:var(--muted,#bbd1cb);cursor:pointer}.ds-world[aria-current=true]{color:var(--paper,#f1f0e3)}.ds-world:after{content:\"\";height:1px;position:absolute;bottom:3px;left:0;right:0;background:var(--gold,#e5cb91);transform:scaleX(0);transform-origin:left;transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-world:is([aria-current=true],:hover,:focus-visible):after{transform:scaleX(1)}.ds-world:focus-visible{outline:2px solid var(--gold,#e5cb91);outline-offset:5px}@media(max-width:900px){.ds-world-nav{justify-content:space-between;gap:16px}.ds-world{font-size:11px}}@media(prefers-reduced-motion:reduce){.ds-world:after{transition:none}}"
+    },
+    {
+      "name": "Opening sentence",
+      "kind": "custom",
+      "description": "Editorial serif sentence with italic presence, used above the staged opening.",
+      "html": "<div class=\"ds-opening\"><h1>A rare kind of <em>presence.</em></h1><p>One creation. Three worlds to discover.</p></div>",
+      "css": ".ds-opening{text-align:center;color:var(--paper,#f1f0e3);padding:0 32px}.ds-opening h1{font:400 clamp(46px,5.6vw,80px)/1.12 Thaddeus,Georgia,serif;letter-spacing:-.03em;margin:0}.ds-opening h1 em{font-weight:400}.ds-opening p{font:12px DIN,Arial,sans-serif;color:var(--muted,#bbd1cb);letter-spacing:.025em;margin:10px auto 0}@media(max-width:900px){.ds-opening{padding:0 25px}.ds-opening h1{font-size:clamp(39px,10.5vw,55px);line-height:1.07;max-width:310px;margin:auto}.ds-opening p{font-size:11px;margin-top:12px}}@media(max-width:380px){.ds-opening h1{font-size:38px}}@media(max-width:900px) and (max-height:660px) and (orientation:portrait){.ds-opening h1{font-size:35px}.ds-opening p{font-size:10px}}"
     }
   ],
   "narrative": {
-    "northStar": "The Light Room",
-    "overview": "The supplied Thaddeus campaign establishes a dark petrol room cut by turquoise light, emerald depth and warm gold. The ring is the focal object. Quiet, high-contrast serif lettering gives the brand an engraved character; DIN keeps navigation and practical information restrained.\n\nThe visual system lives inside the preserved native Hydra journey. The opening offers three perspectives on the same design, followed by a selected hero, a close camera approach and a full-screen photographic release. Same-document panels provide useful detail while preserving the visitor's place in the scene.",
+    "northStar": "The Sculptural Light Rooms",
+    "overview": "The supplied campaign establishes petrol shadow, turquoise light, emerald depth and warm gold. The local implementation gives these materials a physical setting: cut-glass architecture, folded silk, an obsidian ground and a distant photographic wall. Cormorant's high-contrast serif voice and DIN controls keep the interface quiet around the staged objects.\n\nThree materially distinct worlds reveal one jewellery design. The Stone suspends a free emerald among smoked cut-glass forms; The Setting turns the ring to expose its basket and split shank over folded teal silk; The Presence poses the complete ring diagonally in a light chamber with a campaign portrait on the back wall. They share the preserved native Hydra selector, camera, drag and touch journey rather than adding pages or another renderer.",
     "keyCharacteristics": [
-      "One real geometric ring, seen through three connected perspectives.",
-      "Petrol and teal grounds, luminous material, paper-white text and gold actions.",
-      "Short serif statements paired with quiet DIN controls.",
-      "Square, bordered panels that recede around imagery and the 3D object.",
-      "Native motion and touch grammar, with reduced-motion and recovery states."
+      "Three authored setpieces with distinct focal forms: gemstone, setting profile and complete ring.",
+      "Physical native meshes, restrained atmospheric light and supplied photographic material.",
+      "A continuous spatial journey with full-screen editorial product and campaign overlays.",
+      "Short serif statements, selective italic emphasis and quiet DIN controls.",
+      "Native motion, opt-in sound, reduced-motion and content-recovery states."
     ],
     "rules": [
       {
         "name": "The Warm Action Rule",
-        "body": "Use gold to identify an action, selection or focus state. Keep the room itself cool; material light and supplied photographs provide the richer colour.",
+        "body": "Use gold to identify action, selection or focus. Keep the room cool; material light and supplied photographs provide the richer colour.",
         "section": "colors"
       },
       {
         "name": "The Object First Rule",
-        "body": "Reserve room for the entire animated ring silhouette before placing display copy. Keep headlines short and preserve authored line breaks where they define the composition.",
+        "body": "Reserve the focal object's animated silhouette before placing display copy. Keep statements short and preserve authored line breaks where they define a world.",
         "section": "typography"
       },
       {
         "name": "The Scene Continuity Rule",
-        "body": "Open details, gallery, selection and utilities in the same-document overlay. Preserve the underlying camera position and restore native input when the overlay closes.",
+        "body": "Use same-document overlays for details, campaign and utilities. Preserve the native camera position and restore scene input after closing.",
         "section": "layout"
       },
       {
         "name": "The Native Depth Rule",
-        "body": "Extend the existing renderer and its clock for spatial effects. The main product remains authored geometry; a supporting cutout must not substitute for the interactive ring.",
+        "body": "Extend native meshes, shaders and the existing clock. Keep geometric focal objects and their environments distinct from supporting bitmap cutouts.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "**Do** preserve the native continuous selector, camera, drag and touch journey.",
-      "**Do** use the supplied campaign photographs as the photographic and palette authority.",
-      "**Do** protect the ring's complete motion envelope and keep controls outside its silhouette.",
-      "**Do** use square, restrained controls with the shared gold focus treatment.",
-      "**Do** preserve full-width phone panels, internal scrolling and an always-reachable close control.",
-      "**Do** describe local drafts, device storage and download actions truthfully."
+      "**Do** preserve the continuous native selector, camera, drag and touch journey.",
+      "**Do** give each world its own focal form and physical material setting.",
+      "**Do** retain supplied campaign imagery and protect its photographic content.",
+      "**Do** reserve the focal object's full motion envelope and keep controls outside it.",
+      "**Do** preserve full-width phone overlays, internal scrolling and reachable close controls.",
+      "**Do** describe local drafts, storage and downloads truthfully."
     ],
     "donts": [
-      "**Don't** turn the three perspectives into three invented products or a stacked shop template.",
-      "**Don't** replace the interactive geometric ring with the supporting PNG cutout.",
-      "**Don't** generatively alter the nine supplied campaign photographs.",
-      "**Don't** invent prices, certified materials, availability, testimonials or a working checkout/contact destination.",
-      "**Don't** claim an enquiry was sent or a visual was posted when the action stays in the browser.",
-      "**Don't** extend the inherited small scene HUD text into a general reading-size rule."
+      "**Don't** reduce the worlds to repeated identical rings on an empty teal field.",
+      "**Don't** turn three aspects of one creation into three invented products.",
+      "**Don't** add a replacement renderer, animation clock or stacked shop structure.",
+      "**Don't** substitute the supporting PNG for the interactive geometric focal object.",
+      "**Don't** invent commercial facts, a working checkout or sent-message status.",
+      "**Don't** extend compact scene captions into general reading-size defaults."
     ]
   }
 }

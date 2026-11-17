@@ -1,30 +1,43 @@
 ---
 name: Thaddeus
-description: An immersive jewellery light room built around one emerald-green ring.
+description: Three sculptural light rooms reveal the stone, setting and presence of one jewellery design.
 colors:
   night: "#021113"
   ink: "#041b1e"
-  paper: "#ecf3ec"
-  muted: "#b2ccc8"
-  line: "#476669"
+  paper: "#f1f0e3"
+  muted: "#bbd1cb"
+  line: "#496963"
   gold: "#e5cb91"
-  panel: "#05272b"
+  panel: "#031c20"
+  gallery: "#010e10"
   field: "#092e31"
   field-stroke: "#6c8a84"
-  secondary-stroke: "#76938d"
+  secondary-stroke: "#66847a"
 typography:
   display:
     fontFamily: "Thaddeus, Georgia, serif"
-    fontSize: "clamp(45px, 5.2vw, 76px)"
+    fontSize: "clamp(56px, 5.2vw, 76px)"
     fontWeight: 400
     lineHeight: 1.03
-    letterSpacing: "-0.025em"
+    letterSpacing: "-0.035em"
   opening:
     fontFamily: "Thaddeus, Georgia, serif"
-    fontSize: "clamp(38px, 6.2vh, 58px)"
+    fontSize: "clamp(46px, 5.6vw, 80px)"
     fontWeight: 400
-    lineHeight: 1.02
+    lineHeight: 1.12
+    letterSpacing: "-0.03em"
+  piece-title:
+    fontFamily: "Thaddeus, Georgia, serif"
+    fontSize: "clamp(62px, 5vw, 82px)"
+    fontWeight: 400
+    lineHeight: 1.05
     letterSpacing: "-0.025em"
+  gallery-title:
+    fontFamily: "Thaddeus, Georgia, serif"
+    fontSize: "clamp(58px, 5vw, 82px)"
+    fontWeight: 400
+    lineHeight: 1.03
+    letterSpacing: "-0.03em"
   panel-title:
     fontFamily: "Thaddeus, Georgia, serif"
     fontSize: "58px"
@@ -43,27 +56,28 @@ typography:
     fontSize: "12px"
   wordmark:
     fontFamily: "Thaddeus, Georgia, serif"
-    fontSize: "33px"
+    fontSize: "31px"
     fontWeight: 400
     lineHeight: 1
-    letterSpacing: "0.13em"
+    letterSpacing: "0.105em"
 rounded:
   square: "0"
+  close-control: "50%"
 spacing:
   action-gap: "12px"
   row-gap: "20px"
   phone-panel-edge: "24px"
-  desktop-edge: "48px"
+  desktop-edge: "44px"
 components:
   button-primary:
-    backgroundColor: "{colors.paper}"
+    backgroundColor: "{colors.gold}"
     textColor: "{colors.ink}"
     typography: "{typography.action}"
     rounded: "{rounded.square}"
     padding: "16px 20px"
     width: "100%"
   button-primary-hover:
-    backgroundColor: "{colors.gold}"
+    backgroundColor: "{colors.paper}"
   button-secondary:
     textColor: "{colors.paper}"
     typography: "{typography.label}"
@@ -87,6 +101,15 @@ components:
     textColor: "{colors.paper}"
     rounded: "{rounded.square}"
     width: "min(1100px, calc(100vw - 64px))"
+  fullscreen-dialog:
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.paper}"
+    width: "100vw"
+    height: "100dvh"
+  close-control:
+    rounded: "{rounded.close-control}"
+    width: "46px"
+    height: "46px"
   navigation:
     textColor: "{colors.paper}"
     typography: "{typography.label}"
@@ -96,138 +119,141 @@ components:
 
 ## Overview
 
-**Creative North Star: "The Light Room"**
+**Creative North Star: "The Sculptural Light Rooms"**
 
-The supplied Thaddeus campaign establishes a dark petrol room cut by turquoise light, emerald depth and warm gold. The ring is the focal object. Quiet, high-contrast serif lettering gives the brand an engraved character; DIN keeps navigation and practical information restrained.
+The supplied campaign establishes petrol shadow, turquoise light, emerald depth and warm gold. The local implementation gives these materials a physical setting: cut-glass architecture, folded silk, an obsidian ground and a distant photographic wall. Cormorant's high-contrast serif voice and DIN controls keep the interface quiet around the staged objects.
 
-The visual system lives inside the preserved native Hydra journey. The opening offers three perspectives on the same design, followed by a selected hero, a close camera approach and a full-screen photographic release. Same-document panels provide useful detail while preserving the visitor's place in the scene.
+Three materially distinct worlds reveal one jewellery design. The Stone suspends a free emerald among smoked cut-glass forms; The Setting turns the ring to expose its basket and split shank over folded teal silk; The Presence poses the complete ring diagonally in a light chamber with a campaign portrait on the back wall. They share the preserved native Hydra selector, camera, drag and touch journey rather than adding pages or another renderer.
 
 **Key Characteristics:**
 
-- One real geometric ring, seen through three connected perspectives.
-- Petrol and teal grounds, luminous material, paper-white text and gold actions.
-- Short serif statements paired with quiet DIN controls.
-- Square, bordered panels that recede around imagery and the 3D object.
-- Native motion and touch grammar, with reduced-motion and recovery states.
+- Three authored setpieces with distinct focal forms: gemstone, setting profile and complete ring.
+- Physical native meshes, restrained atmospheric light and supplied photographic material.
+- A continuous spatial journey with full-screen editorial product and campaign overlays.
+- Short serif statements, selective italic emphasis and quiet DIN controls.
+- Native motion, opt-in sound, reduced-motion and content-recovery states.
 
 ## Colors
 
-The palette pairs a cool, low-light room with pale reading surfaces and a restrained warm action colour. Frontmatter values are the normative CSS colours extracted from `thaddeus.css`.
+The interface holds a cool room around a warm action colour. Frontmatter values are normative; `thaddeus-world.css` overrides the base stylesheet.
 
 ### Primary
 
-- **Warm Gold** (`gold`): underlined scene actions, hover emphasis, selected-image borders, focus outlines and measurement results.
+- **Warm Gold** (`gold`): primary action surfaces, action lines, selection and focus.
 
 ### Neutral
 
-- **Petrol Night** (`night`): the full-viewport scene ground and dark image containers.
-- **Deep Ink** (`ink`): text on pale primary buttons and toast messages.
-- **Paper Light** (`paper`): primary reading text and the pale primary action surface.
-- **Mist Teal** (`muted`): supporting copy, labels and secondary scene information.
-- **Studio Line** (`line`): dialog edges, dividers and detail rows.
-- **Teal Panel** (`panel`): the same-document overlay surface and close control.
-- **Teal Field** (`field`): editable form surfaces.
-- **Field Stroke** (`field-stroke`) and **Secondary Stroke** (`secondary-stroke`): practical field and secondary-button boundaries.
+- **Petrol Night** (`night`) and **Deep Ink** (`ink`): spatial ground and dark text on bright actions.
+- **Paper Light** (`paper`): warm pale reading text and primary-action hover.
+- **Mist Teal** (`muted`): supporting copy and secondary navigation.
+- **Studio Line** (`line`): detail dividers and utility boundaries.
+- **Teal Panel** (`panel`): product and utility overlay ground.
+- **Gallery Night** (`gallery`): full-screen campaign gallery ground.
+- **Teal Field**, **Field Stroke** and **Secondary Stroke** (`field`, `field-stroke`, `secondary-stroke`): editable and secondary-action surfaces.
 
-**The Warm Action Rule.** Use gold to identify an action, selection or focus state. Keep the room itself cool; material light and supplied photographs provide the richer colour.
+Smoked glass, silk and studio shafts use world-specific shader tints. These are material settings rather than additional interface accents.
+
+**The Warm Action Rule.** Use gold to identify action, selection or focus. Keep the room cool; material light and supplied photographs provide the richer colour.
 
 ## Typography
 
-**Display Font:** self-hosted Cormorant Garamond, registered in CSS as `Thaddeus`, with Georgia and serif fallbacks.
+**Display Font:** self-hosted Cormorant Garamond, registered as `Thaddeus`, with Georgia and serif fallbacks.
 
-**Body Font:** self-hosted URW DIN, registered as `DIN`, with Arial and sans-serif fallbacks. Light and Medium source files supply the interface weights.
+**Body Font:** self-hosted URW DIN, registered as `DIN`, with Arial and sans-serif fallbacks.
 
-**Character:** fine serif strokes and close display tracking carry the jewellery voice. Controls remain plain and legible, without competing with the ring.
+The opening is one editorial sentence with italic emphasis on “presence.” Product and gallery headings have distinct larger roles; utility panels retain the quieter panel-title role.
 
 ### Hierarchy
 
-- **Display:** the selected-perspective statement uses the `display` token and deliberate line breaks. On phones it resolves to 40px, and 37px at the narrow breakpoint.
-- **Opening:** the desktop opening uses the `opening` token, with its size and top position tied to viewport height to reserve the ring's motion envelope. It resolves to 40px on phones and 36px on narrow phones.
-- **Panel title:** the `panel-title` token leads product, gallery and utility panels; the phone size is 44px. The visual-creation panel has a 43px phone title.
-- **Body:** product and panel copy use `body`; phone copy is 14px. Panel introductions stay within 52ch; scene description blocks are shorter, at 24ch.
-- **Action and label:** primary actions use `action`; navigation, form labels and detail rows use `label`.
-- **Wordmark:** `wordmark` uses separated serif capitals. It resolves to 27px on phones and 24px at the narrow breakpoint.
+- **Display:** `display` leads selected worlds; phone sizes are 43px and 39px at the narrow breakpoint.
+- **Opening:** `opening` is centred above the staged selector. Phones use a 39–55px viewport-width clamp and a 38px narrow override.
+- **Piece title:** `piece-title` leads the full-screen product layout; phones use 55px.
+- **Gallery title:** `gallery-title` forms the left editorial column with italic “light.” Phones use 42px and remove desktop line breaks.
+- **Panel title and body:** utilities use `panel-title`; copy uses `body`, reduced to 14px on phones.
+- **Action, label and wordmark:** retain the normative roles above; the wordmark becomes 25px on phones and 23px on narrow phones.
 
-**The Object First Rule.** Reserve room for the entire animated ring silhouette before placing display copy. Keep headlines short and preserve authored line breaks where they define the composition.
+**The Object First Rule.** Reserve the focal object's animated silhouette before placing display copy. Keep statements short and preserve authored line breaks where they define a world.
 
-Existing 10–11px scene HUD text is a compact inherited treatment, not a general label size to extend to new reading surfaces.
+The source includes compact 9–11px scene HUD and gallery captions. These are not general reading-size defaults to extend to new surfaces.
 
 ## Layout
 
-The experience occupies one fixed viewport (`100dvh`) with native camera movement rather than document scrolling. Desktop header and footer edges sit 48px from the viewport; the header uses 30px vertical padding. The opening is centred above a three-column perspective selector. Selected-perspective copy sits at the left, outside the ring silhouette. Campaign photography covers the viewport, with perspective-specific framing and copy placement.
+The experience occupies one fixed viewport (`100dvh`); native camera movement carries the journey. Desktop header/footer edges are 44px, with 27px vertical header padding. The opening sits above three staged focal forms. Selected-world copy sits left at 4.4%; bottom in-scene navigation permits direct world changes and underlines the active choice.
 
-The main responsive breakpoint is 900px. At and below it, navigation becomes a compact Menu, the header uses 25px horizontal edges, hero copy moves above the ring, and secondary hero description text is hidden. The native mobile slider preserves touch navigation and intentional neighbouring-object cropping. The 380px breakpoint further reduces display and wordmark sizes. A landscape rule for heights of 540px or less condenses the opening and removes secondary copy; desktop heights of 680px or less also suppress the opening support line.
+At 900px, display copy moves above the object, navigation compacts into Menu, and the native mobile slider preserves touch movement and intentional neighbouring-object cropping. At 380px, type and controls condense further; a 340px override reduces world-choice names again. Portrait phones 660px high or shorter reduce the opening and phase display and hide its secondary action. Desktop heights of 720px or less and landscape heights of 540px or less have explicit condensed compositions.
 
-Dialogs are bounded by the viewport and scroll internally. Desktop product detail is a two-column image/information grid; phones use one full-width column. The close control lives in a zero-height sticky control layer, with an absolutely positioned button, so it stays reachable without narrowing the grid. Other panels use 75px 60px 55px padding on desktop and 65px 24px 35px on phones. Form rows, the measurement layout and visual-creation layout collapse to one column on phones.
+Product and campaign dialogs fill the viewport. The desktop product gives imagery 1.45fr and information 1fr, with a 380px minimum information column. Phones stack a 43dvh image with at least 300px height above the details. The desktop gallery places an editorial column beside a contained photograph, followed by caption/tools and thumbnails. Phones stack these elements and scroll internally. Image containment preserves the complete campaign frame.
 
-**The Scene Continuity Rule.** Open details, gallery, selection and utilities in the same-document overlay. Preserve the underlying camera position and restore native input when the overlay closes.
+Utility dialogs retain the bounded base layout and internal scrolling. The circular close control lives in an independent sticky layer so it does not consume content width.
+
+**The Scene Continuity Rule.** Use same-document overlays for details, campaign and utilities. Preserve the native camera position and restore scene input after closing.
 
 ## Elevation & Depth
 
-Depth comes primarily from native ring geometry, the camera approach, analytic studio lighting, the bounded internal gemstone shader, atmospheric points and photographic framing. Flat interface panels use borders and tonal separation. The modal backdrop darkens and blurs the scene rather than presenting a floating card stack. Native bloom and depth-of-field remain device-tier dependent.
+The focal depth is native geometry: a faceted stone, profile jewellery, bevelled smoked-glass columns and plinths, folded silk, a studio cyclorama and diffused light-shaft quads. The Presence adds a supplied portrait as a distant back-wall surface. Its photographic tint and crop are compositing treatments, not regenerated source imagery.
+
+The centre and round halo stones use bounded cut-plane optics, absorption and internal reflection. Metal, glass, silk and studio light use analytic illumination. Native bloom and depth-of-field remain device-tier dependent. The existing renderer and clock own every spatial layer; the set adds no canvas or render loop.
+
+A 190px dark lower fade protects world navigation and footer controls in selected hero/macro states. It is a local readability layer above the scene, not a replacement for the staged background.
 
 ### Shadow Vocabulary
 
-- **Macro caption protection** (`0 2px 20px #001315`): text shadow behind the short macro caption.
-- **Supporting ring cutout** (`drop-shadow(0 18px 28px rgba(0,0,0,.22))`): soft separation inside the visual-creation panel.
-- **Measurement illustration** (`inset 2px 2px 5px #001416, 2px 3px 10px #001416`): physical depth in the diagram only.
+- **Macro caption protection** (`0 2px 20px #001315`): local text protection.
+- **Supporting cutout** (`drop-shadow(0 18px 28px rgba(0,0,0,.22))`): separation in the visual-creation panel.
+- **Measurement illustration** (`inset 2px 2px 5px #001416, 2px 3px 10px #001416`): diagram depth only.
 
-The macro state also adds a dark lower fade behind the chapter and footer. This is a local readability layer, not a replacement for the native background.
-
-**The Native Depth Rule.** Extend the existing renderer and its clock for spatial effects. The main product remains authored geometry; a supporting cutout must not substitute for the interactive ring.
+**The Native Depth Rule.** Extend native meshes, shaders and the existing clock. Keep geometric focal objects and their environments distinct from supporting bitmap cutouts.
 
 ## Shapes
 
-Interface controls, fields, dialogs and photographic thumbnails use square corners. Thin borders mark structure and selection. Circular geometry belongs to the ring and its measurement illustration. The jewellery's clipped rectangular centre, faceted halo, baguettes and split shoulders provide the distinctive form language; avoid echoing those complex shapes in every control.
+Square controls, fields, imagery and panel geometry remain the general interface language. The overlay close control is deliberately circular: 46px on desktop and 44px on phones. Thin gold lines mark active worlds and gallery selections. Clipped gemstone corners, bevelled glass and flowing silk belong to the staged material world rather than repeated decorative control shapes.
 
 ## Components
 
 ### Buttons
 
-Primary actions are calm, full-width pale bars, with ink text and a right-side SVG arrow. They use the `button-primary` token and become gold on hover. Secondary actions are transparent, square and outlined; their border and text become gold on hover. Scene actions use gold underlines or the `text-action` treatment. Interactive scene targets maintain a 44px minimum height; primary and secondary panel actions have a 50px minimum height.
-
-All keyboard-interactive controls use a gold 2px focus outline with a 5px offset. Source SVGs supply arrows, close, gallery navigation and measurement controls; the UI does not depend on icon-font or decorative Unicode substitutes.
+Primary actions are full-width gold bars with ink text and an inline SVG direction marker. They become paper light on hover and have a 54px minimum height. Secondary actions remain square, transparent and outlined. Quiet scene/detail actions use gold lines. Keyboard controls retain the gold 2px focus outline with a 5px offset.
 
 ### Cards / Containers
 
-The principal container is the square bordered dialog, not a repeating catalogue card. Its backdrop uses a dark translucent fill and 8px blur. Product detail pairs a cropped supplied campaign image with text; gallery images use containment so the complete frame remains visible. The saved-piece row uses one thumbnail and concise actions.
+Product and campaign use full-screen borderless overlays. Utility panels remain bounded; all retain internal scrolling and focus restoration. The close control is a dark translucent circle in a sticky layer. Product imagery is cropped deliberately; gallery imagery is contained.
 
 ### Inputs / Fields
 
-Form inputs use the `input` token, a thin field stroke and the shared gold focus outline. Labels sit above fields with a 10px gap. Textareas have a 110px minimum height. Invalid non-empty email input gains a warm border; local status text uses gold and states whether the draft was saved, copied or downloaded.
+Fields retain the normative teal surface and stroke, labels above, and the shared gold focus outline. Textareas have a 110px minimum height. Validation and local save/copy/download status remain explicit.
 
 ### Navigation
 
-The serif wordmark returns to the opening. Desktop navigation exposes the ring, campaign and saved selection. Phone navigation retains saved selection and opens a menu containing the three perspectives and utility panels. Perspective choices pair short serif names with a quiet supporting line. Their native lock state disables entry during transitions.
+The wordmark returns to the opening. Desktop navigation exposes the ring, campaign and saved selection; the phone Menu adds worlds and utilities. Opening choices pair serif world names with animated short gold rules. In-scene navigation uses DIN labels, an active underline and `aria-current`. Native transition locks temporarily disable world entry.
 
 ### Campaign Gallery
 
-The gallery displays one complete supplied frame, with previous/next SVG buttons, a live count and a horizontally scrollable thumbnail strip. Selected thumbnails use a gold border and full opacity; others are subdued. Keyboard arrows and horizontal swipe change images, while vertical panning and pinch zoom remain available.
+A large editorial title sits beside the photograph on desktop. SVG arrows, keyboard arrows, swipe and a live count change the frame. The selected thumbnail uses full opacity and a two-pixel gold bottom line; other thumbnails are subdued. The phone gallery stacks and scrolls while preserving the complete image frame.
 
 ### Personalised Visual
 
-A square transparent supporting ring cutout introduces name entry. The native share overlay then creates square, landscape and portrait PNGs in the visitor's browser. Its type and teal surfaces follow the room; it does not display invented edition numbers or automatically post to a service.
+The supporting transparent ring cutout introduces name entry. The native overlay creates square, landscape and portrait PNGs locally, without invented edition numbers or automatic posting.
 
 ### Motion and Recovery
 
-The native renderer owns the ring's slow pose changes, drag response and camera progression. The photographic release has a slow 16-second frame movement. Reduced motion removes this image animation and freezes native jewellery, dust, ambient and backdrop phases. Sound starts only after explicit opt-in. A failed or lost WebGL context presents ring/gallery access and an explicit retry while preserving access to useful content.
+Native pose changes and camera movement animate object and set. Silk motion uses native time; reduced motion holds it along with ring, dust, ambient and backdrop phases. Dialogs reveal over .55s with a clip/opacity transition, and the photographic release retains its slow 16-second frame movement. Reduced motion removes these interface/image animations. WebGL failure or loss exposes ring/gallery content and an explicit retry.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** preserve the native continuous selector, camera, drag and touch journey.
-- **Do** use the supplied campaign photographs as the photographic and palette authority.
-- **Do** protect the ring's complete motion envelope and keep controls outside its silhouette.
-- **Do** use square, restrained controls with the shared gold focus treatment.
-- **Do** preserve full-width phone panels, internal scrolling and an always-reachable close control.
-- **Do** describe local drafts, device storage and download actions truthfully.
+- **Do** preserve the continuous native selector, camera, drag and touch journey.
+- **Do** give each world its own focal form and physical material setting.
+- **Do** retain supplied campaign imagery and protect its photographic content.
+- **Do** reserve the focal object's full motion envelope and keep controls outside it.
+- **Do** preserve full-width phone overlays, internal scrolling and reachable close controls.
+- **Do** describe local drafts, storage and downloads truthfully.
 
 ### Don't:
 
-- **Don't** turn the three perspectives into three invented products or a stacked shop template.
-- **Don't** replace the interactive geometric ring with the supporting PNG cutout.
-- **Don't** generatively alter the nine supplied campaign photographs.
-- **Don't** invent prices, certified materials, availability, testimonials or a working checkout/contact destination.
-- **Don't** claim an enquiry was sent or a visual was posted when the action stays in the browser.
-- **Don't** extend the inherited small scene HUD text into a general reading-size rule.
+- **Don't** reduce the worlds to repeated identical rings on an empty teal field.
+- **Don't** turn three aspects of one creation into three invented products.
+- **Don't** add a replacement renderer, animation clock or stacked shop structure.
+- **Don't** substitute the supporting PNG for the interactive geometric focal object.
+- **Don't** invent commercial facts, a working checkout or sent-message status.
+- **Don't** extend compact scene captions into general reading-size defaults.

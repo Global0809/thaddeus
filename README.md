@@ -2,15 +2,17 @@
 
 Immersive jewellery brand preview using the supplied Thaddeus campaign images and a procedural native 3D interpretation of the green-centre ring.
 
-Public website: https://global0809.github.io/thaddeus/. The release record supplied with delivery identifies the deployed commit, archive and anonymous-host verification.
+Public website: https://global0809.github.io/thaddeus/. Version 3.0.0 introduces the physical-set redesign. The preceding V2 release is preserved. Publication evidence and the exact deployed commit are recorded separately in the workspace release record.
 
 ## Experience
 
-Three connected perspectives — the stone, the setting and the presence — preserve the native Hydra selector, camera journey, scene transitions, drag and touch controls. Scroll through the ring's details into a photographic campaign release. Same-document panels provide ring details, the nine-image gallery, saved selection, ring measurement, privacy information and enquiry preparation without discarding the scene position.
+Three connected worlds preserve the native Hydra selector, camera journey, scene transitions, drag and touch controls. The Stone suspends a free emerald among smoked cut-glass architecture. The Setting presents the ring's basket and split shank above folded teal silk. The Presence places the complete diagonal ring inside a light chamber, with a supplied campaign portrait on its distant wall. These are three aspects of one design, not separate products. The native renderer and clock own the objects and sets; no new pages, canvas or renderer are added.
 
-The main ring is authored geometry rendered by the native runtime. Four shared jewellery mesh groups represent gold, white metal, the green centre and halo/baguette/pavé stones. A floor-reflection mesh and one batched dust draw bring each ring instance to six draws before native scene and post-processing work. The green centre uses actual intersection against 73 cut planes, with Fresnel exits, absorption and bounded internal reflection: three bounces on desktop, two on phones. The studio environment, metal and small stones use analytic shader approximations; this is not a full-frame path tracer or a certified physical gemstone simulation.
+Bottom in-scene navigation switches worlds directly. The camera still approaches the jewellery and releases into campaign photography. Product details and the nine-image campaign gallery now use full-screen editorial overlays; saved selection, measurement, privacy and enquiry preparation remain same-document utilities.
 
-Each instance has 2,400 desktop or 1,200 phone dust points. Native ambient fields retain 250 points in an eligible active selector or macro composition. Twelve allocated ring instances belong to different native stages; they are not twelve simultaneously visible rings. Use the runtime diagnostics for allocation and current-view counts.
+The jewellery is authored native geometry. The complete ring/profile uses four shared jewellery mesh groups, a floor-reflection mesh and one batched dust draw. A joined rounded shank separates into split pavé shoulders, and small cup settings support the halo. The free-emerald variant hides the metal and small-stone groups. Native set meshes provide folded silk, bevelled glass, ground and light shafts; The Presence adds a photographic back wall. The green centre intersects 73 cut planes with up to six desktop or four phone internal hits. Round halo stones use 34-plane, two-hit bounded optics in their merged draw. Lighting remains analytic; this is not a full-frame path tracer or certified physical gemstone simulation. The changed materials compiled and rendered in the desktop and phone browser checks.
+
+Each jewellery instance has 2,400 desktop or 1,200 phone dust points. Native ambient fields retain 250 points in an eligible active selector or macro composition. Allocated instances span separate native stages and are not all visible at once. Use `THADDEUS_JEWELLERY.getStats()` and `THADDEUS_WORLD.getStats()` for jewellery/set allocation and current-view diagnostics.
 
 ## Browser features
 
@@ -30,13 +32,13 @@ All nine campaign photographs retain the supplied image content. Eighteen WebP f
 
 ## Preservation
 
-The prior approved garment-based AICANFEEL V5 remains in Git history and the tag `aicanfeel-v5-before-thaddeus`. The original Sites deployment and source archives are preserved separately.
+The approved garment-based AICANFEEL V5 remains in Git history and the tag `aicanfeel-v5-before-thaddeus`. The prior jewellery release is preserved by `thaddeus-v2-before-world-rebuild`, alongside its V2 release tags. The original Sites deployment and source archives remain separate.
 
-Source checks and bounded desktop/phone captures cover the native journey, dialogs, artwork downloads, audio opt-in and context-loss recovery. An extended run exposed a native first-frame routing race, which was fixed without changing animation or gestures. Post-fix verification completed 30 rapid desktop cycles and 77 phone cycles over 20.2 minutes, including physical touch scrolling: 107 intended destinations reached with no recorded errors or failures. These are Chrome-browser observations, not physical-device full-frame FPS certification. See `NATIVE-EFFECT-INVENTORY.md` for counting rules and the scope of recorded evidence.
+This revision completed 25 desktop/phone composition captures, a focused correction confirmation, and an independent visual closure review. Fresh interaction checks verified 36 destinations, an actual phone touch gesture, gallery keyboard navigation, saved selection, local drafts, reduced motion, a single canvas and no horizontal overflow or browser errors. The recovery test passed after correcting its selector to use the visible recovery action. Previous V2 soak evidence remains separate; this revision does not claim physical-device FPS certification.
 
 ## Files
 
-`index.html`, `thaddeus.css` and `thaddeus.js` provide the brand interface. `thaddeus-boot.js` performs WebGL preflight and loads the native modules. `energy-core.js` holds the ring meshes, optics and dust (the filename is a compatibility boundary). `assets/js/app.js` retains the native renderer and guarded jewellery integration. `immersive-data.js` supplies narrative data. `thaddeus/media` contains campaign derivatives and the source manifest; `thaddeus/fonts` contains Cormorant Garamond and its OFL licence. `DESIGN.md` and `.impeccable/design.json` record the implemented visual system.
+`index.html`, `thaddeus.css`, `thaddeus-world.css` and `thaddeus.js` provide the interface and editorial overlays. `thaddeus-boot.js` performs WebGL preflight and loads the native modules. `energy-core.js` holds jewellery meshes, optics and dust; `thaddeus-world-atmosphere.js` authors the physical sets. `assets/js/app.js` retains the native renderer and guarded integrations. `immersive-data.js` supplies narrative data. `thaddeus/media` contains campaign derivatives and the source manifest; `thaddeus/fonts` contains Cormorant Garamond and its OFL licence. `DESIGN.md` and `.impeccable/design.json` record the current source's visual system.
 
 GitHub Pages serves the `gh-pages` branch with `.nojekyll`; asset URLs resolve against `/thaddeus/`. Development direction and review contracts belong outside this folder and must not enter the browser-delivered package.
 
