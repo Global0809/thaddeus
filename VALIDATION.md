@@ -28,3 +28,7 @@ Periodic JS-heap/DOM counters do not measure GPU texture memory. Allocated ring 
 ## Commercial scope
 
 This is a jewellery brand/product preview. Pricing, certified specifications, stock, contact destination and checkout remain unconfirmed. Enquiries are explicitly local drafts; nothing is submitted to Thaddeus. Downloads do not post automatically.
+
+## Final keyboard dismissal check
+
+Anonymous-host verification exposed Escape arriving while personalised artwork was still opening. Dismissal now queues behind the native opening animation, including requests from the close control. A targeted browser check verified that Escape during opening, immediately after a square download, closes the overlay and restores the native scene. This additive interface correction does not change the verified world-transition mechanism or geometry.
