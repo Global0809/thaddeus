@@ -1,0 +1,7 @@
+# Energy share-card graphic
+
+`share-core.png` is a square RGBA promotional cutout derived from the user-selected Creative Core concept using the built-in image generation tool. It replaces the garment image only inside the existing personalized share-card feature when `AICANFEEL_ENERGY_MODE` is enabled. It is a static concept illustration, not a capture or executable 3D model. The primary website scene is built from actual native meshes, shaders and GPU points in `dist/energy-core.js`; it does not use this bitmap as its 3D object.
+
+## Exact generation prompt
+
+Edit the supplied AICANFEEL Creative Core concept into a square product cutout for the existing personalized social-share artwork. Preserve the exact nested segmented graphite/titanium rings, visible physical construction, cyan/teal energy filaments, small white centre and surrounding bioluminescent currents. Remove the black environment and the floor reflection completely. Output a genuinely transparent RGBA background including the gaps between the rings; preserve soft alpha around the cyan particles and glow rather than an opaque dark haze. Recompose into a 1:1 square image with the entire core and its important particle currents contained within the central 76 percent, generous transparent margins on all four sides. No text, no logos, no UI, no pedestal, no rectangular backdrop. This is a static promotional/share graphic of the selected concept, not an executable model. Keep the materials and camera direction faithful to the input, do not add rings or redesign the core.

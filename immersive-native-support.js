@@ -3,11 +3,11 @@
   const status=document.getElementById('boot-status');
   let frames=0;
   const ready=setInterval(()=>{
-    if(document.querySelector('#Stage canvas')||document.querySelector('.LoaderView')){
+    if(window.Global?.IMMERSIVE_COURSE_RENDER_READY){
       if(++frames>4){status?.classList.add('ready');setTimeout(()=>status?.remove(),500);clearInterval(ready)}
     }
   },200);
-  setTimeout(()=>{clearInterval(ready);if(!document.querySelector('canvas')){status.classList.remove('ready');status.innerHTML='<strong>AICANFEEL</strong><span>Your browser could not start the 3D experience.</span><button onclick="location.reload()">Try again</button><button data-ic-enquire>View the course details</button>';document.body.append(status)}},25000);
+  setTimeout(()=>{clearInterval(ready);if(!document.querySelector('canvas')){status.classList.remove('ready');status.innerHTML='<strong>THADDEUS</strong><span>Your browser could not start the 3D experience.</span><button onclick="location.reload()">Try again</button><button data-ic-enquire>Discover the ring</button>';document.body.append(status)}},25000);
   // Never contact legacy advertising or campaign endpoints.
   window.gtag=()=>{};window.fbq=()=>{};
   const setup=setInterval(()=>{

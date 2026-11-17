@@ -1,0 +1,146 @@
+[
+  {
+    "name": "flash-portrait",
+    "source": "exec-d16e771e-7418-495f-a5a0-7bbe4064da5f-ring-replaced.png",
+    "width": 1774,
+    "height": 887,
+    "outputs": [
+      {
+        "file": "flash-portrait-800.webp",
+        "bytes": 26930
+      },
+      {
+        "file": "flash-portrait-1600.webp",
+        "bytes": 75224
+      }
+    ]
+  },
+  {
+    "name": "teal-portrait",
+    "source": "frame_06-ring-replaced.png",
+    "width": 1911,
+    "height": 819,
+    "outputs": [
+      {
+        "file": "teal-portrait-800.webp",
+        "bytes": 15378
+      },
+      {
+        "file": "teal-portrait-1600.webp",
+        "bytes": 40046
+      }
+    ]
+  },
+  {
+    "name": "halo-portrait",
+    "source": "frame_12-ring-replaced.png",
+    "width": 1911,
+    "height": 819,
+    "outputs": [
+      {
+        "file": "halo-portrait-800.webp",
+        "bytes": 24508
+      },
+      {
+        "file": "halo-portrait-1600.webp",
+        "bytes": 64348
+      }
+    ]
+  },
+  {
+    "name": "light-room",
+    "source": "exec-0033af52-a396-402e-a016-8f5a1f5b3504-ring-replaced.png",
+    "width": 1774,
+    "height": 887,
+    "outputs": [
+      {
+        "file": "light-room-800.webp",
+        "bytes": 42748
+      },
+      {
+        "file": "light-room-1600.webp",
+        "bytes": 106138
+      }
+    ]
+  },
+  {
+    "name": "runway",
+    "source": "exec-388e25ab-5c72-47f6-85b9-93c648df5c18-ring-replaced.png",
+    "width": 1774,
+    "height": 887,
+    "outputs": [
+      {
+        "file": "runway-800.webp",
+        "bytes": 38474
+      },
+      {
+        "file": "runway-1600.webp",
+        "bytes": 93364
+      }
+    ]
+  },
+  {
+    "name": "ring-atmosphere",
+    "source": "exec-b8f67ae6-04fc-454d-b2a2-05b4b363a78c-ring-replaced.png",
+    "width": 1774,
+    "height": 887,
+    "outputs": [
+      {
+        "file": "ring-atmosphere-800.webp",
+        "bytes": 25362
+      },
+      {
+        "file": "ring-atmosphere-1600.webp",
+        "bytes": 66196
+      }
+    ]
+  },
+  {
+    "name": "crystal-portrait",
+    "source": "exec-0c5e6ff3-4b8f-4d0e-bfcd-db5d68a98b15-ring-replaced.png",
+    "width": 1774,
+    "height": 887,
+    "outputs": [
+      {
+        "file": "crystal-portrait-800.webp",
+        "bytes": 28212
+      },
+      {
+        "file": "crystal-portrait-1600.webp",
+        "bytes": 89326
+      }
+    ]
+  },
+  {
+    "name": "arrival",
+    "source": "exec-7dfabffe-6b5f-4878-8673-cf897b6f6ad8-ring-replaced.png",
+    "width": 1774,
+    "height": 887,
+    "outputs": [
+      {
+        "file": "arrival-800.webp",
+        "bytes": 32374
+      },
+      {
+        "file": "arrival-1600.webp",
+        "bytes": 82236
+      }
+    ]
+  },
+  {
+    "name": "ring-detail",
+    "source": "exec-15a861d8-8d61-4e56-b480-5fd3f2dc3275-ring-replaced.png",
+    "width": 1774,
+    "height": 887,
+    "outputs": [
+      {
+        "file": "ring-detail-800.webp",
+        "bytes": 25174
+      },
+      {
+        "file": "ring-detail-1600.webp",
+        "bytes": 68870
+      }
+    ]
+  }
+]
