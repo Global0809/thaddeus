@@ -1,4 +1,6 @@
-# Energy share-card graphic
+# Legacy energy share-card graphic
+
+> Preserved from the earlier AICANFEEL V6 experiment. This asset is inactive in the Thaddeus website; the active artwork uses `thaddeus/share-ring.png` and the main scene uses procedural ring geometry.
 
 `share-core.png` is a square RGBA promotional cutout derived from the user-selected Creative Core concept using the built-in image generation tool. It replaces the garment image only inside the existing personalized share-card feature when `AICANFEEL_ENERGY_MODE` is enabled. It is a static concept illustration, not a capture or executable 3D model. The primary website scene is built from actual native meshes, shaders and GPU points in `dist/energy-core.js`; it does not use this bitmap as its 3D object.
 

@@ -1,0 +1,10 @@
+{
+  "name": "thaddeus-jewellery-experience",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node preview.cjs",
+    "start": "node preview.cjs",
+    "check": "node --check thaddeus.js && node --check thaddeus-boot.js && node --check energy-core.js && node --check assets/js/app.js && node --check immersive-data.js && node --check immersive-native-support.js"
+  }
+}
